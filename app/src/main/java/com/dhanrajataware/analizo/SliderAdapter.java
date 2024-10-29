@@ -64,13 +64,13 @@ public class SliderAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(View view, Object object) {
-        return view== (RelativeLayout) object;
+        return view== object;
     }
 
     //Pass the data through inflater to move to different slides (using a unique position for elements in arrays above)
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        layoutInflater=(LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+        layoutInflater=(LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view=layoutInflater.inflate(R.layout.slide_layout,container,false);
 
         //Initializing xml components

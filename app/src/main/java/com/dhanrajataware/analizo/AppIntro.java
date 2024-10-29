@@ -35,8 +35,8 @@ public class AppIntro extends AppCompatActivity {
         setContentView(R.layout.activity_app_intro);
 
         ni=new NoInternet();
-        mpager1=(ViewPager)findViewById(R.id.pager1);
-        mlinear1=(LinearLayout)findViewById(R.id.linear1);
+        mpager1= findViewById(R.id.pager1);
+        mlinear1= findViewById(R.id.linear1);
 
         sliderAdapter=new com.example.analizo.SliderAdapter(this);
         mpager1.setAdapter(sliderAdapter);
