@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2762436344",
+    "project_id": "sentimentanalysis-1c633",
+    "storage_bucket": "sentimentanalysis-1c633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2762436344:android:829dd4146eb758c94fd50d",
+        "android_client_info": {
+          "package_name": "com.dhanrajataware.analizo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYMN52XE9CcYCrwXqNg2qv6ECmLKqfqrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2762436344:android:585bacd2d3eb92f64fd50d",
+        "android_client_info": {
+          "package_name": "com.example.sentimentanalysis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYMN52XE9CcYCrwXqNg2qv6ECmLKqfqrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
